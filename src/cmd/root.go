@@ -24,4 +24,5 @@ func Exec() {
 }
 
 func init() {
+	rootCmd.AddCommand(versionCmd)
 }
