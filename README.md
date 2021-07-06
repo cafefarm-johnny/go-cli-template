@@ -16,6 +16,9 @@ go-cli-template
  │  └────     app/
  │  │  └────     app.go  // app 정보
  │  └────     cmd/
+ │  │  ├────     template
+ │  │  │  └────     help.go  // help 커맨드의 템플릿  
+ │  │  ├────     flags.go  // 커맨드 공통 플래그 변수
  │  │  ├────     root.go  // root 커맨드
  │  │  └────     version.go  // 앱 버전 출력 커맨드
  │  └────     main.go // 메인 함수
